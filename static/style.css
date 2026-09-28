@@ -84,3 +84,10 @@ pre{
     letter-spacing: 2px;
     overflow-x: auto;
 }
+
+footer{
+    text-align:center;
+    margin-top:30px;
+    color:#888;
+    font-size:13px;
+}
