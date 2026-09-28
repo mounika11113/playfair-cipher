@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Playfair Cipher Encryption and Decryption</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<h1>🔐 Playfair Cipher</h1>
+
+<p class="author">
+Secure Encryption & Decryption System
+</p>>
+<div class="container">
+    
+
+    <h1>Playfair Cipher</h1>
+
+    <form method="POST">
+
+        <label>🔑 Secret Key</label><br>
+        <input type="text" name="key"><br><br>
+
+        <label>📝 Plain Text / Cipher Text</label><br>
+        <textarea name="text" rows="4" cols="30"></textarea><br><br>
+
+        <button type="submit" name="action" value="encrypt">Encrypt</button>
+        <button type="submit" name="action" value="decrypt">Decrypt</button>
+        <br><br>
+
+        <h3>Result:</h3>
+        <pre>{{ result }}</pre>
+
+        <h3>Matrix:</h3>
+        <pre>{{ matrix }}</pre>
+    </form>
+
+</div>
+
+
+</body>
+</html>
